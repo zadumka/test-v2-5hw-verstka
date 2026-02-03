@@ -540,7 +540,6 @@ input {
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
     fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
-
 .modale-close:hover,
 .modale-close:focus {
   background-color: #404bbf;
