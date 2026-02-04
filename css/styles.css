@@ -536,10 +536,12 @@ input {
   border-radius: 100%;
   width: 24px;
   height: 24px;
+  fill: #2E2F42;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
-   fill: #2E2F42;
+    fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
+
 .modale-close:hover,
 .modale-close:focus {
   background-color: #404bbf;
